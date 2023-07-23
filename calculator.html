@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form filling</title>
+</head>
+<body>
+   <form action="#" name="Payment form" onSubmit="return(validate());">
+        <table cellpadding="6" width="20%" bgcolor="skyblue"  align="center"cellspacing="6">
+    <tr>
+        <td colspan=2>
+        <center><font size=8><b>Payment form</b></font></center>
+        </td>
+    </tr>  
+    <tr>
+        <td>Title:</td>
+        <td><select name="Title">
+        <option value="-1" selected>Mr</option>
+        <option value="Mis">Mis</option>
+        <option value="Smt">Smt</option>
+        </select></td>
+        </tr>
+    <tr>
+        <td>First Name:</td>
+        <td>
+            <input type="text" name="First Name" placeholder="First Name">
+        </td>
+    </tr>
+    <tr>
+        <td>Last Name:</td>
+        <td>
+            <input type="text" name="Last Name" placeholder="Last Name">
+        </td>
+    </tr>
+    <tr>
+        <td>Address:</td>
+        <td>
+        <input type="text" name="Address"placeholder="Address">
+         </td>
+     </tr>
+     <tr>
+        <td>City:</td>
+        <td>
+        <input type="text" name="City"placeholder="City">
+         </td>
+     </tr>
+     <tr>
+        <td>State:</td>
+        <td>
+        <input type="text" name="State"placeholder="State">
+         </td>
+     </tr>
+     <tr>
+        <td>Postal code:</td>
+        <td>
+        <input type="text" name="Postal code"placeholder="Postal code">
+         </td>
+     </tr>
+     <tr>
+        <td>country:</td>
+        <td>
+        <input type="text" name="country"placeholder="country">
+         </td>
+     </tr>
+     <tr>
+        <td>Phone:</td>
+        <td>
+        <input type="text" name="Phone"placeholder="Phone">
+         </td>
+     </tr>
+     <tr>
+        <td>fax:</td>
+        <td>
+        <input type="text" name="Fax"placeholder="Fax">
+         </td>
+     </tr>
+     <tr>
+        <td>Email:</td>
+        <td>
+        <input type="text" name="Email"placeholder="Email">
+         </td>
+     </tr>
+     <tr>
+         <td>Payment by:</td>
+         <td>
+             <input type="radio" name="paymentby">paypal
+             <br>
+             <input type="radio" name="paymentby">Manual Pay on arrival
+             <br>
+             <input type="radio" name="paymentby">Credicard
+         </td>
+     </tr>
+     
+     <tr>
+        <td>
+            Any Additional requirements:
+        </td>
+        <td>
+            <textarea name="Any Additional requirements" id="" cols="30" rows="6"></textarea>
+            <br>
+            <input type="checkbox">
+             I agree with the <a href="https://termify.io/generate-terms-and-conditions">Terms&Conditions</a> <br>
+            <input type="button"value="Confirm&Checkout" onclick="alert('form is submitted')"><br>
+        </td>
+    </tr>
+        </table>
+    </form>
+</body>
+</html>
